@@ -1,0 +1,11 @@
+{
+  "collectCoverage": true,
+  "preset": "ts-jest",
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "globals": {
+    "ts-jest": {
+      "tsconfig": "./tsconfig.tests.json"
+    }
+  }
+}

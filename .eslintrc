@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": ["@happygloss/eslint-config"],
+  "parserOptions": {
+    "project": "./tsconfig.tests.json"
+  },
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
